@@ -10,11 +10,11 @@ aktivitas = input("Masukan pilihan aktivitas yang mau kamu jalani ya:")
 
 if aktivitas == "mau sarapan":
     print("kita ada bahan ini:")
-    print("telur")
-    print("ikan")
-    print("nugget")
+    print("1. telur")
+    print("2. ikan")
+    print("3. nugget")
 
-    menu = input("mau sarapan menu dengan bahan apa?")
+    menu = input("mau sarapan menu dengan bahan apa? silakan masukan nama bahan:")
 
     if menu == "telur" or menu == "ikan" or menu == "nugget":
         print(f"oke, {menu} ada. silakan dimasak!")
