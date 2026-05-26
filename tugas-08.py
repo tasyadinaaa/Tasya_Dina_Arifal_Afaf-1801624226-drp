@@ -33,7 +33,7 @@ for i in range (jumlah_kegiatan):
     daftar_kegiatan.append(kegiatan)
 print()
 
-print("💌 DAFTAR KEGIATAN YANG SUDAH {user} INPUT 💌")
+print(f"💌 DAFTAR KEGIATAN YANG SUDAH {user} INPUT 💌")
 
 for i in range(len(daftar_kegiatan)):
     print(f"KEGIATAN {i + 1}")
