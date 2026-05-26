@@ -40,5 +40,5 @@ for i in range(len(daftar_kegiatan)):
     print(f"Nama kegiatan       : {daftar_kegiatan[i]['kegiatan']}")
     print(f"Waktu kegiatan      : {daftar_kegiatan[i]['waktu']}")
     print(f"Durasi kegiatan     : {daftar_kegiatan[i]['durasi']}")
-    print(f"Tempat kegiatan  : {daftar_kegiatan[i]['tempat']}")
+    print(f"Tempat kegiatan     : {daftar_kegiatan[i]['tempat']}")
     print()
